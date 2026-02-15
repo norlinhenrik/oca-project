@@ -7,14 +7,12 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
-    "name": "CRM Timesheet",
+    "name": "CRM Timesheet (19.0 just project_id)",
     "category": "Customer Relationship Management",
     "version": "19.0.1.0.0",
-    "depends": ["crm", "project_timesheet_time_control"],
+    "depends": ["crm", "project"],
     "data": [
-        "security/ir.model.access.csv",
         "views/crm_lead_view.xml",
-        "views/hr_timesheet_view.xml",
     ],
     "author": "Tecnativa, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/timesheet",
